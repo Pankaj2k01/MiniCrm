@@ -279,33 +279,47 @@ The secure backend server provides the following RESTful endpoints with JWT auth
 - `GET /health` - Health check endpoint
 - `GET /api` - API information and available endpoints
 
-## 🎨 Screenshots & Demo
+## 📱 App Screenshots
 
-### Dashboard Analytics
-- **Real-time KPI Dashboard** with conversion rates and lead metrics
-- **Interactive Pie Charts** showing lead status distribution
-- **Bar Charts** displaying lead value trends over time
-- **Quick Action Navigation** for immediate access to key features
+Experience the Mini CRM app with these real screenshots showcasing the complete user interface and functionality:
 
-### Customer Management
-- **Searchable Customer Directory** with professional card layouts
-- **Detailed Customer Profiles** with comprehensive contact information
-- **Add/Edit Forms** with real-time validation and error handling
-- **Lead Association Views** showing all customer-related opportunities
+### 🔐 Authentication System
+<div align="center">
 
-### Lead Management
-- **Complete Lead Pipeline** visualization (New → Contacted → Converted/Lost)
-- **Status-based Filtering** with visual indicators and color coding
-- **Lead Value Tracking** with currency formatting and calculations
-- **Cross-navigation** between customers and their associated leads
+| Login Screen | Registration Screen |
+|:---:|:---:|
+| ![Login](Images/Login.jpg) | ![Register](Images/Register.jpg) |
+| Secure JWT-based login with role validation | User registration with comprehensive validation |
 
-### Mobile Experience
-- **Responsive Design** optimized for various screen sizes
-- **Touch-friendly Interface** with native gesture support
-- **Offline Functionality** with graceful data fallback
-- **Pull-to-refresh** across all screens for real-time updates
+</div>
 
-*Note: Live screenshots and demo videos will be added to showcase the complete user experience.*
+### 📊 Dashboard & Analytics
+<div align="center">
+
+| Dashboard Overview | Analytics View | Statistics Panel |
+|:---:|:---:|:---:|
+| ![Dashboard-1](Images/Dashboard-1.jpg) | ![Dashboard-2](Images/Dashboard-2.jpg) | ![Dashboard-3](Images/Dashboard-3.jpg) |
+| Main dashboard with KPIs | Interactive charts and metrics | Detailed statistics breakdown |
+
+</div>
+
+### 👥 Customer & User Management
+<div align="center">
+
+| Customer List | User Profile |
+|:---:|:---:|
+| ![Customers](Images/Customers.jpg) | ![User Profile](Images/User.jpg) |
+| Customer directory with search & filters | User profile with role-based features |
+
+</div>
+
+### ✨ Key UI Features Shown:
+- **Material Design 3** implementation with modern aesthetics
+- **Role-based Navigation** adapting to user permissions
+- **Interactive Charts** for data visualization
+- **Professional Cards** for customer and lead display
+- **Responsive Layout** optimized for mobile devices
+- **Touch-friendly Interface** with intuitive navigation
 
 ## 🧪 Testing
 
@@ -407,22 +421,19 @@ EXPO_PUBLIC_API_URL=http://10.0.2.2:3001  # For Android emulator
 - **Mock Data**: Update `mock-api/db.json`
 - **App Configuration**: Edit `app.json` for build settings
 
-## 📱 Screenshots
-
-*Screenshots will be added once the UI implementation is complete.*
-
 ## 🔮 Upcoming Features
 
-- [ ] Complete customer management functionality
-- [ ] Lead management with status filtering
-- [ ] Dashboard with interactive charts
-- [ ] Search and advanced filtering
+- [x] ~~Complete customer management functionality~~ ✅
+- [x] ~~Lead management with status filtering~~ ✅
+- [x] ~~Dashboard with interactive charts~~ ✅
+- [x] ~~Search and advanced filtering~~ ✅
+- [x] ~~Role-based access control~~ ✅
 - [ ] Dark mode support
-- [ ] Role-based access control
-- [ ] Input validation improvements
+- [ ] Enhanced lead pipeline visualization
+- [ ] Advanced reporting and analytics
 - [ ] Unit and integration tests
 - [ ] Performance optimizations
-- [ ] Offline support
+- [ ] Push notifications
 
 ## 📊 Performance Optimizations
 

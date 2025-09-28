@@ -32,6 +32,7 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
@@ -41,3 +42,29 @@ app-example
 # generated native folders
 /ios
 /android
+
+# Backend specific
+server/.env
+server/crm_database.db
+server/node_modules/
+server/npm-debug.*
+server/yarn-debug.*
+server/yarn-error.*
+
+# Documentation (sensitive)
+projectoverview.md
+rbac.md
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock

@@ -407,9 +407,6 @@ EXPO_PUBLIC_API_URL=http://10.0.2.2:3001  # For Android emulator
 - **Mock Data**: Update `mock-api/db.json`
 - **App Configuration**: Edit `app.json` for build settings
 
-## 📱 Screenshots
-
-*Screenshots will be added once the UI implementation is complete.*
 
 ## 🔮 Upcoming Features
 
@@ -466,10 +463,6 @@ EXPO_PUBLIC_API_URL=http://10.0.2.2:3001  # For Android emulator
 - Follow **React Native** performance guidelines
 - Use **conventional commits** for commit messages
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Expo Team** for the excellent development platform
@@ -480,7 +473,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📦 Support
 
-For support, email [your-email@example.com] or create an issue in the GitHub repository.
+For support,create an issue in the GitHub repository.
 
 ---
 
